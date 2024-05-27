@@ -1,6 +1,7 @@
 ```mermaid
 classDiagram
     class ReprodutorMusical {
+        -String musica
         +tocar()  void 
         +pausar()  void 
         -selecionarMusica(String musica)  void
