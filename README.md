@@ -3,7 +3,7 @@ classDiagram
     class ReprodutorMusical {
         +tocar()
         +pausar()
-        selecionarMusica(String musica)
+        +selecionarMusica(String musica)
     }
 
     class AparelhoTelefonico {
