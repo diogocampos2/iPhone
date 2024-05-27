@@ -3,19 +3,19 @@ classDiagram
     class ReprodutorMusical {
         +tocar()  void 
         +pausar()  void 
-        +selecionarMusica(String musica)  void
+        -selecionarMusica(String musica)  void
     }
 
     class AparelhoTelefonico {
         +ligar(String numero)  void
         +atender()  void
-        +iniciarCorreioVoz()  void
+        -iniciarCorreioVoz()  void
     }
 
     class NavegadorInternet {
         +exibirPagina(String url)  void
-        +adicionarNovaAba()  void
-        +atualizarPagina()  void
+        -adicionarNovaAba()  void
+        -atualizarPagina()  void
     }
 
     class iPhone {
