@@ -1,8 +1,8 @@
-
+```mermaid
 classDiagram
     class ReprodutorMusical {
-        +tocar()
-        +pausar()
+        +tocar() 
+        +pausar() 
         +selecionarMusica(String musica)
     }
 
@@ -24,4 +24,4 @@ classDiagram
     iPhone --> ReprodutorMusical
     iPhone --> AparelhoTelefonico
     iPhone --> NavegadorInternet
-    
+```
