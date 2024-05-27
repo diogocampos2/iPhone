@@ -8,12 +8,14 @@ classDiagram
     }
 
     class AparelhoTelefonico {
+        -String numero
         +ligar(String numero)  void
         +atender()  void
         -iniciarCorreioVoz()  void
     }
 
     class NavegadorInternet {
+        -String url
         +exibirPagina(String url)  void
         -adicionarNovaAba()  void
         -atualizarPagina()  void
